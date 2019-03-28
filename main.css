@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    background: black;
+}
+
+h1 {
+    text-align: center;
+    /* font-family: 'Aclonica', sans-serif; */
+    font-family: 'Unlock', cursive;
+    font-size: 6em;
+    color: white;
+    padding: 3px;
+}
+
+#graves {
+    margin-top:-50px
+}
