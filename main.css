@@ -42,7 +42,6 @@ body {
 
 main {
     display: flex;
-    width: 600px;
     flex-direction: row;
 }
 
