@@ -40,18 +40,33 @@ body {
     background-attachment: fixed;
 }
 
+main {
+    display: flex;
+    width: 600px;
+    flex-direction: row;
+}
+
+#album-display {
+    flex-shrink: 1;
+}
+
 img {
+    width: 100%;
+}
+
+/* img {
     height: 225px;
     border-radius: 25px;
     margin: 2px;
     padding: 2px;
+    width: 100%;
 }
 
 #album-display {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    /* justify-content: space-around;
     flex-basis: auto;
-    height: auto;
-}
-
+    height: auto; */
+    /* width: 600px; */
+/* } */
